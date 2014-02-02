@@ -6,7 +6,9 @@
 % referencing -----------------------------///
 	%TODO: get referencing included
 	% (fork of https://github.com/michal-h21/biblatex-iso690)
-	%\usepackage[backend=biber,sorting=none,style=iso-numeric]{biblatex}
+
+	%temporary:
+	\usepackage[backend=biber,sorting=none,style=ieee]{biblatex}
 
 % output -------------------------------------------------///
 	\usepackage{verbatim}
