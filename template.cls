@@ -3,6 +3,13 @@
 
 \usepackage[utf8]{inputenc}
 
+% referencing -----------------------------///
+	%TODO: get referencing included
+	% (fork of https://github.com/michal-h21/biblatex-iso690)
+	%\usepackage[natbib=true,style=verbose-ibid,isbn=false]{biblatex}
+
+% output -------------------------------------------------///
+	\usepackage{verbatim}
 
 % code ------------------------------------///
 	%split into separate file as it was making a mess of template
