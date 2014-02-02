@@ -15,8 +15,6 @@
 
 % code ------------------------------------///
 	%split into separate file as it was making a mess of template
-	\input{code}
-
 	\usepackage{listings}
 	\usepackage{color}
 
