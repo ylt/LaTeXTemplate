@@ -6,7 +6,7 @@
 % referencing -----------------------------///
 	%TODO: get referencing included
 	% (fork of https://github.com/michal-h21/biblatex-iso690)
-	%\usepackage[natbib=true,style=verbose-ibid,isbn=false]{biblatex}
+	%\usepackage[backend=biber,sorting=none,style=iso-numeric]{biblatex}
 
 % output -------------------------------------------------///
 	\usepackage{verbatim}
@@ -99,4 +99,7 @@
 	%get space remaining on page, great for images!
 	%\includegraphics[height=\measurepage,width=textwidth,keepaspectratio=true]{diagram}
 	\newcommand\measurepage{\dimexpr\pagegoal-\pagetotal-\baselineskip\relax}
+
+	\usepackage{amsmath}
+	\usepackage{graphicx}
 
