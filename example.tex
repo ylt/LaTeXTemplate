@@ -2,6 +2,26 @@
 %%There is just one section and two subsections.
 \documentclass{template}
 
+%bad practice, this would usually be a separate file.
+% this is just done as an example.
+\usepackage{filecontents}
+\begin{filecontents}{references.bib}
+@BOOK{profpractice,
+	author={John Dooley},
+	publisher={Apress},
+	title = {Software Development and Professional Practice},
+	year=2011
+}
+
+@ONLINE{debianspec,
+	author={Debian},
+	title = {3.4. Meeting Minimum Hardware Requirements},
+	url = {http://www.debian.org/releases/wheezy/i386/ch03s04.html.en},
+	urldate = {2014-01-28}
+}
+\end{filecontents}
+\addbibresource{references.bib}
+
 \author{Joseph Carter p130743}
 \title{\textbf{Application Design and Development\\Application Development}\\ Role playing game}
 \date{\today}
@@ -39,11 +59,14 @@ public class Test
 }
 \end{lstlisting}
 
-Plain text.
+Plain text. \cite{debianspec}
 
 \subsection{Another subtitle}
 
-More plain text.
+More plain text. \cite{profpractice}
 
-
+\clearpage
+\section{References}
+\printbibliography
+\clearpage
 \end{document}
