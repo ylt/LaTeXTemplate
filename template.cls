@@ -25,7 +25,7 @@
 	%adds a few oracle keywords + others to standard SQL language
 	\lstdefinelanguage{OraSQL}{
 		language=SQL,
-		morekeywords={TO, IDENTIFIED, USER}
+		morekeywords={TO, IDENTIFIED, USER, REFERENCES, START, WITH, INCREMENT, BY, SEQUENCE, MAXVALUE, NOMAXVALUE, MINVALUE, NOMINVALUE, CACHE}
 	}
 
 	%javascript is not defined at all in LaTeX listings
